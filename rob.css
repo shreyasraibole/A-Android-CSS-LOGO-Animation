@@ -1,0 +1,128 @@
+h1{
+    text-align: center;
+    border-bottom: 2px solid rgb(155, 112, 155);
+    border-right: 2px solid rgb(155, 112, 155);
+    border-left: 2px solid  rgb(155, 112, 155);
+    box-shadow: 4px 4px 4px rgba(126, 30, 30, 0.533);
+    width: 300px;
+    
+}
+.rob{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.robot{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+
+.head, 
+.left_arm, 
+.chest, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #5f93e8;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+.head:hover{
+    transition: 1s;
+    transform:scale(1.1);
+    
+}
+
+.eyes{
+    display: flex;
+}
+
+.left_eye,.right_eye{
+    width: 20px; 
+	height:20px; 
+	border-radius: 15px; 
+	background-color: white; 
+}
+
+.left_eye { 
+	
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+
+.upper_body{
+    display: flex;
+    width: 200px;
+    height: 150px;
+}
+.left_arm,.right_arm{
+    width: 40px;
+    height: 125px;
+    border-radius: 100px;
+}
+.left_arm{
+    margin-right: 10px;
+}
+.right_arm{
+    margin-left: 10px;
+}
+.chest{
+    width: 200px;
+    height: 200px;
+    border-radius: 0 0 50px 50px;
+}
+
+.lower_body{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+.left_leg,.right_leg{
+    width: 40px;
+    height: 120px;
+    border-radius: 0 0 100px 100px; 
+}
+.left_leg{
+    margin-left: 45px;
+}
+.right_leg{
+    margin-left: 30px;
+}
+
+.left_leg:hover{
+    transition: all 1s;
+    transform: rotate(20deg);
+
+}
+.right_leg:hover{
+    transition: all 1s;
+    transform: rotate(-20deg);
+}
+.left_arm:hover{
+    transition: all 1s;
+    transform:rotate(20deg);
+
+}
+.right_arm:hover{
+    transition: all 1s;
+    transform: rotate(-20deg);
+}
+
